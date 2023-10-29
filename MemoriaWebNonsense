@@ -1,0 +1,96 @@
+MODELO MEMORIA WEB  DISEÑO DE INTERFACES WEB
+“Nonsense Store”
+
+ÍNDICE
+1. INTRODUCCIÓN 
+	1.1. Justificación 
+	1.2. Objetivos 
+                      1.2.1. Características de la aplicación
+              1.3. Comparativa
+2. ANÁLISIS Y PLANIFICACIÓN 
+	2.1. Análisis 
+                    2.1.1. Requisitos funcionales de los usuarios 
+                    2.1.2. Requisitos de la aplicación 
+                    2.1.2. Lenguaje en la parte cliente 
+	2.2. Planificación y fases del desarrollo 
+3. DESARROLLO 
+	3.1. Diseño y mockups
+	3.2. Funcionalidad 
+	3.3. Codificación 
+	 3.4. Mantenimiento 
+4. AMPLIACIONES 
+	4.1. Mejora de código 
+	4.2. Soporte de idiomas 
+5. EVALUACIÓN Y CONCLUSIONES FINALES 
+6. REFERENCIAS 
+
+
+
+1. INTRODUCCIÓN 
+1.1. Justificación
+La página web se ha realizado a petición de un cliente, que quiere digitalizar su tienda de Objetos Imposibles (“Nonsense Store”) y llevarla a su digitalización Online, con un diseño tan elegante como “cool”, y focalizará su contenido en acercar a los usuarios y futuros compradores sus sorprendentes artículos, a medio camino entre herramientas inútiles y exclusivos objetos de diseño artístico.
+En la página web se muestran los sorprendentes artículos además de generar una subscripción a una exclusiva lista de clientes para ser informados prioritariamente de las novedades recibidas.
+Además, en un mundo inundado de pragmatismo y utilidad, los objetos imposibles se presentan como un respiro sarcástico y refrescante. ¿Quién necesita un paraguas con agujeros o una tetera con dos bocas opuestas? Todos, claramente. Son piezas de conversación, iconos de un mundo que no se toma demasiado en serio. Es un recordatorio de que no todo en la vida tiene que tener un propósito... excepto hacernos reír. Nonsense Store le da una vuelta de tuerca al consumismo postmodernista y apuesta por artículos donde la exclusividad está más que asegurada.
+	1.2. Objetivos 
+El objetivo de la aplicación es mostrar los sorprendentes y exclusivos artículos para incrementar su venta y permitir pedidos online para el envío por correo. También expone sus lineas ideológicas introduciendo el concepto de Objetos inútiles (pero irresistibles) y creando un club social en torno a él. La oferta  en gran medida dependerá precisamente de las carácterísticas de la persona destinataria (edad, sexo, profesión o intereses). Puede tratarse por ejemplo de artículos de decoración como floristería (p. ej. la “flor cadaver”), complementos de moda absurdos e imposibles de usar, artículos de perfumeria con los aromas más repugnantes que jamas hayas imaginado, libros a los que les falta el final o incluso productos gourmet con sabores equivocados.
+
+ El objetivo último sería que nuestros sorprendentes artículos tengan presencia en los despachos de los CEOs de todo el mundo, ya sea como artículo decorativo o como glamuroso pisapapeles. 
+
+                      1.2.1. Características de la aplicación
+La aplicación cuenta con una página principal donde se encuentra el contenido más importante. En él, podemos observar una imagen principal destacando el lema de la marca “La calidad del vino en una sola botella”.  A continuación encontramos una galería de imágenes de la zona donde se encuentra la bodega, junto con la actividad más destacada del grupo que es el enoturismo. Ambos videos hablan sobre la marca, dejando una imagen abierta a otro tipo de públicos y finalizando con la información de contacto junto con un formulario para poder gestionar cualquier duda que los compradores tengan. 
+A parte de la página principal, podemos encontrar 7 páginas más donde el usuario podrá ir navegando para conocer la historia de la bodega, los viñedos, vinos y ponerse en contacto con la bodega.
+
+              1.3. Comparativa
+Desde un punto de vista ideológico esta página web se ha inspirado en varias páginas web de autores y listas de objetos absurdos, inútiles e imposibles como por ejemplo la dedicada a Jacques Carelman https://www.ersilias.com/jacques-carelman-poeta-visual/ , otra dedicada al Chindogu, el verdadero arte japonés de inventar y fabricar los objetos inútiles más insólitos  https://www.neoteo.com/chindogu-el-arte-japones-de-los-objetos-inutiles-galeria/  por último infinidad de galerias de objetos inútiles existente por toda la red, en muchas ocasiones artículos reales que podemos encontrar a la venta por ejemplo la siguiente galería de imágenes https://culturainquieta.com/es/lifestyle/item/19899-veinte-productos-absurdos-que-no-necesitamos-para-seguir-vivos.html
+
+Desde un punto de vista estético …. (habrá que incluir páginas web con diseño similar)
+
+2. ANÁLISIS Y PLANIFICACIÓN 
+	2.1. Análisis 
+                    2.1.1. Requisitos funcionales de los usuarios 
+Para poder acceder a la página web es necesario disponer de un equipo con conexión a internet y un navegador web. A partir de este momento, la web es funcional para todo tipo de dispositivos desde donde se quiera hacer la consulta. 
+                    2.1.2. Requisitos de la aplicación 
+Para ejecutar la web es necesario disponer de un equipo con un servidor instalado donde se alojará la web. El cliente necesitará tener un dispositivo con navegador con capacidad para interpretar HTML5 y CSS.
+                    2.1.2. Lenguaje en la parte cliente 
+El lenguaje utilizado para esta página Web será el HTML5 combinada con una hoja de estilos CSS.
+	2.2. Planificación y fases del desarrollo 
+La planificación que se ha seguido para completar el proyecto es:
+- 5 días para obtener información y revisión de otras páginas similares.
+- 2  días para la planificación del proyecto y requisitos.
+- 4 días para el desarrollo del index.html
+- 1 días para configurar la hoja de estilo.
+- 2 día para el test de la web.
+Dentro de los 7 días para obtención de información y los requisitos se incluye la creación del mockup.  El mockup se ha hecho de forma colaborativa entre los dos componentes.
+
+3. DESARROLLO 
+3.1. Diseño
+Bajo un menú de navegación clásico la web nos presenta a su izquierda brevemente lo que son los objetos imposibles, en un breve texto introductorio, acompañado de una foto principal de un articulo principal que ocupa los dos tercios de la página en altura. 
+
+En la parte baja nos aparecerán 4 fotografías de articulos que a su vez representan 4 de las categorías ofrecidas.
+La paleta de colores es en blanco y negro con escalas de grises a través de la iluminación que nos deja una malgama de luces y sombras, de esta manera se destaca la elegancia y el misterio que encierran estos artículos.
+
+
+3.2. Funcionalidad 
+Nuestro punto de vista de la funcionalidad y el principal objetivo era conseguir con una web muy sencilla, captar la atención del cliente con una adecuada estética y permitirle acceder fácilmente a la galería de productos con el menor número de clicks,. Desde el inicio de la página web se puede acceder al menú desde el cual, tras una pulsación de botón, es posible acceder a los diferentes productos. Por la naturaleza de los artículos ofrecidos, la curiosidad invita a que el usuario recorra nuestras galerias de productos de forma fácil e intuitiva.
+
+	3.3. Codificación 
+Para nuestro index y durante todo el proyecto hemos usado el lenguaje HTML5 con sections y articles para modernizar y actualizar el código a la última versión HTML disponible. Cada una de las sections incluye el contenido de cada sección de la web (menú, cabecera principal, sección de imágenes, sección de videos y elementos decorativos utilizados hasta ahora). Para el CSS se ha estructurado de manera que la organización del código sea acorde a la distribución de la web y de las secciones correspondientes, desde la cabecera de la página hasta su pie. 
+
+	 3.4. Mantenimiento 
+El mantenimiento de la versión actual es costoso pues al ser estática habrá que cambiar código HTML para añadir, eliminar y cambiar productos de forma manual. En su segunda versión cuando se integre con bases de datos ya podremos hacer un mejor mantenimiento más dinámico, incluso elaborar una parte privada para que sea el propio cliente el que lo realice.
+Se mejorará también la securización de la página, la velocidad y la adaptabilidad.
+Una vez finalizada esa segunda fase, cada 12 meses se contactará con el cliente para conocer y proponer nuevos módulos de ampliación.
+
+
+4. AMPLIACIONES 
+4.1. Mejora de código
+Como la web desarrollada es una web estática, presentará altísimos costes de mantenimiento, máxime teniendo en cuenta que se trata de productos únicos y exclusivos que una vez vendidos, habrá que retirarlos y sustituirlos por otro. La difusión eso sí pasará a ser mundial y se espera ser un sitio visitado por las mejores fortunas a lo largo y ancho del mundo.
+
+	4.2. Soporte de idiomas 
+En la próxima versión está contemplado que la página web se adapte pase a ser multiidioma, inglés, francés y alemán. Esto atraería a un público a nivel mundial que deseen adquirir cualaquiera de nuestros exclusivos artículos. Con esta aportación de traducción y la introducción de bases de datos sin duda el incremento de las ventas será exponencial.
+5. EVALUACIÓN Y CONCLUSIONES FINALES 
+
+6. REFERENCIAS 
+https://www.ersilias.com/jacques-carelman-poeta-visual/ 
+https://www.neoteo.com/chindogu-el-arte-japones-de-los-objetos-inutiles-galeria/
+https://culturainquieta.com/es/lifestyle/item/19899-veinte-productos-absurdos-que-no-necesitamos-para-seguir-vivos.html
