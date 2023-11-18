@@ -1,0 +1,660 @@
+/*Establecemos el comportamiento por defecto para las transiciones tipo boton*/
+/**/
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  /*El color del fondo y la tipografia de toda la pagina*/
+*{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*Ponemos el header*/
+.head{
+    position:absolute;
+    right:0;
+    background-color: #FFFFFF;
+    width:100%;
+    height: 15%;
+    top:0;
+
+}
+
+/*Situamos el logo*/
+.logo{
+    position: absolute;
+    height: 101%;
+    width: 10%;
+    left: -19px;
+    top: -19%;
+}
+
+/*Situamos los elementos dentro del header en general*/
+
+.head>div{
+
+    position: relative;
+    left: 45%;
+    padding-top: 0.5%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: transparent;
+    right: 0;
+    padding-left: 10%;
+    font-size: small;
+    font-weight: 100;
+    padding-right:0.1%; 
+    font-size: large;
+    
+}
+
+/*Modificamos el primer elemento para la animacion*/
+.frame{
+    transition: transform 2s ease; /*Ponemos la velocidad de transicion*/
+    z-index: 1;/*Le damos prioridad para que paso por otros elementos*/
+    background-color: transparent; /*Transparentamos para que solo se vean las letras*/
+}
+
+
+/*Modificamos el tercer elemento para la animacion. Lo ponemos en blanco*/
+.frame3{
+    background-color: white;
+}
+
+/*Hacemos que rote sobre el eje de frame*/
+.frame:hover{
+    transform: rotate(180deg);
+    transform-origin: center;
+}
+
+/*Ponemos en blanco tambien el b que envuelve el texto*/
+.catalogo1{
+    color: white;
+    background-color: white;
+    transition: color 1.9s ease;
+}
+
+/*Solo se pondra de negro cuando hagamos hover*/
+.frame3:hover .catalogo1{
+    color:black;
+}
+
+/*Esto posiciona el elemento con la imagen principal*/
+.container-main{
+    position: absolute;
+    padding:0;
+    margin:0;
+    left:0;
+    right:0;
+    top: 15%;
+    height: 50%;
+
+}
+
+/*Fondo pagina principal*/
+.fondo2{
+    position: absolute;
+    width: 100%;
+    top: -10%;
+    left: 0px;
+}
+
+/*Posicion el div contenedor del titulo de esta seccion*/
+.titulo-contain{
+    position: relative;
+    background-color: transparent;
+    top: 1%;
+    width: 400px;
+    height: 24%;
+    color: black;
+    width: 10%;
+    left: 2%;
+
+}
+
+/*Establezco el tamaño y el fondo transparente del b que contiene el titulo*/
+.impossible{
+    background-color: transparent;
+    font-size: 0.75cm;
+    
+
+}
+
+/*Estilo del div que contiene el primer texto*/
+.container-parr1{
+    position:relative;
+    width:400px;
+    background-color: transparent;
+    font-size:0.3cm;
+    width: 16%;
+    left: 1%;
+}
+
+/*arreglos del b del primer texto*/
+.container{
+    background-color: transparent;
+}
+
+/*Estilo del div que contiene el segundo texto*/
+.container-parr2{
+    position:relative;
+    width: 16%;
+    left: 1%;
+    font-size:0.3cm;
+    background-color: transparent;
+}
+
+/*arreglos del b del segundo texto*/
+.container2{
+    background-color: transparent;
+}
+
+
+/*Estilo del div que contiene el tercer texto*/
+.container-parr3{
+    position:relative;
+    display: inline-block;
+    width: 21%;
+    top: 13%;
+    left: 1%;
+    background-color: transparent;
+}
+
+
+/*arreglos del b de la primera parte del tercer texto*/
+.container3{
+    background-color: transparent;
+}
+
+/*arreglos del b de la segunda parte del tercer texto*/
+.containerr3{
+    background-color: transparent;
+    margin-left: 35px;
+}
+
+
+/*Boton que te lleva hacia abajo*/
+.boton{
+    position: absolute;
+    height: 12px;
+    width: 20px;
+    top: 66.5%;
+    left: 49%;
+    z-index: 1;
+  }
+
+/*Los posicionamos*/
+  .enlace{
+    position: absolute;
+    top: -5.5%;
+  }
+
+
+/*Catalogo o segunda seccion pagina*/
+.container-second{
+    position:absolute;
+    top: 67%;
+    height: 42%;
+    width:100%;
+    left:0;
+    background-color: transparent;
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+    overflow: hidden;
+    
+    
+}
+
+/*Primera seccion del catalogo*/
+.container-second1{
+    height: 100%;
+    width:100%;
+    background-color: transparent;
+    display: block;
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+    transition: transform 2s ease; 
+}
+
+
+/*Segunda seccion del catalogo*/
+.container-second2{
+    height: 100%;
+    width:100%;
+    left:0;
+    background-color: transparent;
+    margin:0;
+    padding:0;
+    color:#FFFFFF;
+    
+    
+}
+
+/*Contenedor primera imagen y texto*/
+.container-parr4 {
+    position: absolute;
+    top: 1%;
+    background-color: transparent;
+    width: 25%;
+    height: 79%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    left: 0;
+}
+
+/*Primera imagen*/
+.tendor {
+    width: 100%;
+    height: 93%;
+}
+
+/*Contenedor segunda imagen y texto*/
+.container-parr5 {
+    position: absolute;
+    background-color: transparent;
+    width: 25%;
+    height: 79%;
+    left: 25%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+/*Segunda imagen*/
+.bici{
+    width: 100%;
+    height: 93%;
+
+}
+
+
+/*Contenedor tercera imagen y texto*/
+.container-parr6 {
+    position: absolute;
+    background-color: transparent;
+    width: 25%;
+    height: 79%;
+    left: 50%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+/*Tercera imagen*/
+.cuadro{
+    width: 100%;
+    height: 93%;
+}
+
+
+/*Contenedor cuarta imagen y texto*/
+.container-parr7 {
+    position: absolute;
+    background-color: transparent;
+    width: 25%;
+    height: 79%;
+    left: 75%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+
+/*Cuarta imagen*/
+.pintura{
+    width: 100%;
+    height: 93%;
+}
+
+
+/*Estilos de los textos encima de las imagenes*/
+.container-second1>div>b{
+    position: relative;
+    left: 140px;
+    background-color: transparent;
+}
+
+/*Barra horizontal*/
+.bar{
+    position :relative;
+    background-color:#FFFFFF;
+    height: 0.9%;
+    top: 6%;
+    width:100%
+    
+
+}
+
+/*Estilos tercera parte pagina*/
+.container-third {
+    position: absolute;
+    top: 100%;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+}
+
+/*Imagen de esta parte*/
+.fondo3 {
+    width: 100%;
+    height: 100%;
+}
+
+/*Estilos del div que contiene el titulo*/
+.titulo-contain2{
+    position: absolute;
+    top: 7%;
+    left: 44%;
+    background-color: transparent;
+
+}
+
+/*Estilos del titulo*/
+.esencia{
+    background-color:transparent;
+}
+
+/*Estilos del primer parrafo de la seccion (es una lista)*/
+.parrafo1{
+    position: absolute;
+    color:white;
+    top: 1.2%;
+    left: 0.5%;
+    background-color: transparent;
+    background-color: transparent;
+}
+
+/*Arreglos de la lista*/
+.parrafo1>ul{
+    background-color: transparent;
+    list-style-type: none;
+}
+
+/*Arreglos de la lista*/
+.parrafo1>ul>li{
+    background-color: transparent;
+}
+
+/*Animacion*/
+.parrafo1 .contenidop {
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: transform 0.5s ease-out;
+    height: auto;
+    overflow: hidden;
+}
+
+/*Que la animacion se de cuando se hace hoover*/
+.parrafo1 .titulop:hover .contenidop {
+    transform: scaleY(1);
+}
+
+/*Estilos del segundo parrafo de la seccion*/
+.parrafo2{
+    position: absolute;
+    color:white;
+    top: 7%;
+    right: 2%;
+    background-color: transparent;
+}
+
+
+/*Boton para llevar arriba*/
+.botonArr{
+    position: absolute;
+    height: 29px;
+    width: 28px;
+    top: 92.5%;
+    left: 97%;
+}
+
+/*Estilos del footer*/
+.footer {
+    position: absolute;
+    top: 178%;
+    width: 99.45%;
+    height: 23%;
+    background-color: #FFFFFF;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+}
+
+/*Estilos de los p dentro del primer texto*/
+.texto1>p{
+    background-color: white;
+    margin: 0;
+    font-size:0.4cm;
+
+}
+
+
+/*Estilos en especifico del primer parrafo footer*/
+.texto1{
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    
+}
+
+/*Estilos de los p dentro del segundo texto*/
+.texto2>p{
+    background-color: white;
+    margin: 0;
+    font-size:0.4cm;
+
+}
+
+/*Estilos en especifico del segundo parrafo del footer*/
+.texto2{
+    position: absolute;
+    left: 35%;
+    top:10%;
+}
+
+/*Contenedor de la imagen de Instagram*/
+.imgfooter1 {
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 5%;
+    right: 0%;
+}
+
+/*Imagen instagram*/
+.footer1{
+    height:1%;
+    width:15%;
+}
+
+/*Contenedor imagen github*/
+.imgfooter2 {
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 6%;
+    right: 20%;
+}
+
+/*Imagen github*/
+.footer2{
+    height:1%;
+    width:15%;
+}
+
+/*Contenedor imagen linkedin*/
+.imgfooter3 {
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 46%;
+    right: 20%;
+}
+
+
+/*Imagen linkdn*/
+.footer3{
+    height:1%;
+    width:15%;
+}
+
+/*Contenedor imagen twitter*/
+.imgfooter4 {
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 53%;
+    right: 0%;
+}
+
+
+/*Imagen twitter*/
+.footer4{
+    height:1%;
+    width:15%;
+}
+
+
+
+/*Quitamos el estilo de la lista*/
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/*Lo situamos a la izquierda*/
+.menu ul li {
+    float: left;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-color: transparent;
+}
+
+/*Presentamos las imagenes como un bloc*/
+.menu ul li img {
+    display: block;
+}
+
+
+/*Animacion*/
+.menu ul ul {
+    visibility: hidden; /* Ocultar inicialmente */
+    opacity: 0;
+    position: absolute;
+    left: 25%; 
+    top: 12px;
+    background-color: white; /* Fondo blanco */
+    color: black; /* Texto negro */
+    transition: visibility 0s, opacity 1.5s ease; /* Transición suave */
+}
+
+/*Que la animacion venga del hoover*/
+.menu ul li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+}
+
+/*Aderezamos el menu desplegable*/
+.menu ul ul li {
+    float: none;
+}
+
+/*Son enlaces así que los decoramos*/
+.menu ul ul a {
+    display: block;
+    white-space: nowrap;
+    background-color: #FFFFFF;
+    color: black;
+/* Evita que el texto se ajuste a la siguiente línea */
+}
+
+/*Metemos posicionamientos individuales*/
+.lista1{
+    padding: -2px 15px;
+}
+.lista2{
+    padding: 10px 15px;}
+.lista3{
+    padding: 13px 7px
+}
+.lista4{
+    padding: 3px 4px;
+}
+
+
+
+#yes{
+    display: block;
+}
+
+
+ /* .container-second1 {
+    transition: transform 2s ease;
+  } */
+  
+  .container-second1:target {
+    transform: translateX(0);
+  }
+  /* Muestra siempre el contenedor yes, excepto cuando no es el objetivo */
+  #yes {
+    transform: translateX(0); /* Empieza en la vista */
+  }
+  
+  /* El contenedor #no empieza fuera de la vista a la izquierda */
+  #no {
+    transform: translateX(-100%);
+  }
+  
+  /* Cuando #no es el objetivo, se mueve a la vista */
+  #no:target {
+    transform: translateX(0);
+  }
+  
+  /* Cuando #yes es el objetivo, se mueve a la vista */
+  #yes:target {
+    transform: translateX(0);
+  }
+  
+  /* Cuando #no es el objetivo, #yes se mueve fuera de la vista a la derecha */
+  #no:target ~ #yes {
+    transform: translateX(-100%);
+  }
+  
+  /* Cuando #yes es el objetivo, #no se mueve fuera de la vista a la izquierda */
+  #yes:target ~ #no {
+    transform: translateX(100%);
+  }
+
+/*Decoramos los enlaces*/
+  a:link, a:visited, a:active {
+    text-decoration:none;
+    color: white;
+  }
+
+/*Estilo texto footer*/
+.texto1parr2{
+    position: absolute;
+    top: 242%;
+}
+
+
+.texto1parr3{
+    position: absolute;
+    top: 607%;
+}
+
+
+
+   
+
+
