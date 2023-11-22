@@ -92,7 +92,7 @@ html {
     height: 24%;
     color: black;
     width: 10%;
-    left: 2%;
+    left: 4%;
 
 }
 
@@ -109,7 +109,7 @@ html {
     background-color: transparent;
     font-size:0.3cm;
     width: 16%;
-    left: 1%;
+    left: 3%;
 }
 
 
@@ -121,7 +121,7 @@ html {
 .container-parr2{
     position:relative;
     width: 16%;
-    left: 1%;
+    left: 3%;
     font-size:0.3cm;
     background-color: transparent;
 }
