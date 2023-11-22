@@ -30,7 +30,7 @@ html {
 
     position: relative;
     left: 45%;
-    padding-top: 0.5%;
+    padding-top: 1%;
     display: inline-block;
     vertical-align: top;
     background-color: transparent;
@@ -105,7 +105,7 @@ html {
 
 .container-parr1{
     position:relative;
-    width:400px;
+    width:16%;
     background-color: transparent;
     font-size:0.3cm;
     width: 16%;
@@ -267,8 +267,9 @@ background-color: transparent;
 
 
 .container-second1>div>b{
+    top: -2%;
     position: relative;
-    left: 140px;
+    left: 40%;
     background-color: transparent;
 }
 
